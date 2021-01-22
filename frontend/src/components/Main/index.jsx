@@ -30,7 +30,7 @@ function getModalStyle() {
   };
 }
 
-export const ProductTagList = ({ user, onLogin, onLogout, ...props }) => {
+const Main = ({ user, onLogin, onLogout, ...props }) => {
   const classes = useStyles();
   const [modalStyle] = React.useState(getModalStyle);
   const [groupId, setGroupId] = React.useState('');
@@ -60,6 +60,7 @@ export const ProductTagList = ({ user, onLogin, onLogout, ...props }) => {
     setNextToken('');
     setButtonName(null);
   }
+
   const onClickDownLoadData = async () => {
     setIsActive(true);
 
@@ -166,4 +167,4 @@ export const ProductTagList = ({ user, onLogin, onLogout, ...props }) => {
     </LoadingOverlay>
   );
 }
-export default ProductTagList;
+export default Main;
