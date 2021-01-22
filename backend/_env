@@ -1,0 +1,5 @@
+NODE_ENV=deployment
+PORT=3000
+WP_GRAPH_URL=https://graph.facebook.com
+WP_TOKEN=
+DEFAULT_LIMIT=100
