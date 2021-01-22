@@ -1,13 +1,17 @@
 # [Workplace Export](https://github.com/lahuman/workplace_export)
 
 
-> 워크플레이스의 관리자 패널에서는 특정 Group의 게시글을 export를 제공하지 않습니다.
-
-> 이 프로젝트는 Workplace의 특정 Group의 게시글을 다운 받는 기능을 제공합니다.
+> 워크플레이스의 관리자 패널에서는 특정 그룹의 게시글을 export를 제공하지 않습니다.
+> 이 프로젝트는 Workplace의 특정 그룹의 게시글을 다운 받는 기능을 제공합니다.
 한번에 다운받을 게시글의 수는 .env에서 변경이 가능합니다. 너무 큰 숫자의 경우 Workplace 서버에서 오류가 발생할 수 있습니다.
 (권장: 100, 최대 : 500, 테스트에서는 1000도 가능하였으나, 오류가 간간히 발생했습니다.)
 workplace 게시글 + 댓글을 xlsx 형식으로 다운로드 합니다.
 
+> Workplace's admin panel does not provide export of specific group posts.
+> This project provides the ability to download posts from specific Workplace groups.
+The number of posts to download at one time can be changed in .env. If the number is too large, there may be an error with the Workplace server.
+(Recommended: 100, Max: 500, 1000 is also possible in the test, but an error occurs intermittently.)
+Download work posts + comments in xlsx format.
 
 ***Screen***
 
