@@ -41,9 +41,6 @@ export const ProductTagList = ({ user, onLogin, onLogout, ...props }) => {
   const [nextToken, setNextToken] = React.useState('');
   const [buttonName, setButtonName] = React.useState('처음');
   const [count, setCount] = React.useState(1);
-  React.useEffect(() => {
-    console.log(groupInfo)
-  }, [groupInfo]);
 
   const getCommentsArray = (comments, idx = 1) => comments.data.reduce((acc, cur) => {
     acc.push({
