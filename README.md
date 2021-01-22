@@ -1,9 +1,9 @@
-# Workplace Export
+# [Workplace Export](https://github.com/lahuman/workplace_export)
 
 
-> 워크플레이스의 관리자 패널에서는 특정 Group의 게시글을 export를 제공하지 안습니다.
+> 워크플레이스의 관리자 패널에서는 특정 Group의 게시글을 export를 제공하지 않습니다.
 
-> Workplace의 특정 Group의 게시글을 다운 받는 기능을 제공합니다.
+> 이 프로젝트는 Workplace의 특정 Group의 게시글을 다운 받는 기능을 제공합니다.
 한번에 다운받을 게시글의 수는 .env에서 변경이 가능합니다. 너무 큰 숫자의 경우 Workplace 서버에서 오류가 발생할 수 있습니다.
 (권장: 100, 최대 : 500, 테스트에서는 1000도 가능하였으나, 오류가 간간히 발생했습니다.)
 workplace 게시글 + 댓글을 xlsx 형식으로 다운로드 합니다.
@@ -21,14 +21,14 @@ workplace 게시글 + 댓글을 xlsx 형식으로 다운로드 합니다.
 
 #### 모든 게시글 다운로드 시 
 - 알림 표기
-![](./screenshot_2.png)
+![](./export_finish.png)
 
 #### 잘못된 그룹 ID 입력시
-![](./screenshot_3.png)
+![](./wrong_group_id.png)
 
 #### 결과 예제
 
-<a href="./322853118694054_1.xlsx" download>Export Example</a>
+<a href="https://raw.githubusercontent.com/lahuman/workplace_export/main/322853118694054_1.xlsx" download>Export Example</a>
 
 ## Table of Contents 
 
