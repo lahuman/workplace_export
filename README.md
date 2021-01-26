@@ -33,7 +33,7 @@ Download work posts + comments in xlsx format.
 
 #### 결과 예제
 
-<a href="https://raw.githubusercontent.com/lahuman/workplace_export/main/322853118694054_1.xlsx" download>Export Example</a>
+<a href="https://raw.githubusercontent.com/lahuman/workplace_export/main/322853118694054_1.xlsx" download>Export XLSX Example</a>
 
 ## Table of Contents 
 
