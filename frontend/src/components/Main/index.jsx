@@ -111,7 +111,7 @@ const Main = ({ user, onLogin, onLogout, ...props }) => {
     const _groupInfo = await call({ url: `/api/workplace/group?groupId=${groupId}`, method: 'get' });
 
     setIsActive(false);
-    if (_groupInfo.statusCode === 400) {
+    if (_groupInfo.statusCode > 400) {
       setWrongMsg('잘못된 Group ID 입니다.');
       setOpen(true);
       return;
